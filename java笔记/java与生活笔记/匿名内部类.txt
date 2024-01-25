@@ -1,0 +1,28 @@
+new Human(){
+
+            @Override
+            public void eat() {
+                System.out.println("吃饭");
+            }
+
+            @Override
+            public void sleep() {
+
+            }
+        }.eat();
+
+Human chinese = new Human() {
+            @Override
+            public void eat() {
+                System.out.println("中国人吃中国菜");
+            }
+
+            @Override
+            public void sleep() {
+
+            }
+        };
+
+        chinese.eat();
+
+两种表现形式，注意eat方法调用的不同

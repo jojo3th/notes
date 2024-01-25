@@ -1,0 +1,13 @@
+interface中的所有方法都是abstract
+
+抽象类是对具体事务的抽象
+
+接口是对具体事务行为的抽象
+
+interface中可以写属性
+
+interface中的三种方法：
+
+1. abstract方法
+2. static方法
+3. default方法

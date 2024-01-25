@@ -1,0 +1,13 @@
+经典代码：
+```java
+pubilc class Earth {
+    //成员可以调用private的构造函数
+    private static Earth earthInstance = new Earth();
+    
+    private Earth() {}
+    
+    public static Earth getEarthInstance() {
+        return earthInstance;
+    }
+}
+```

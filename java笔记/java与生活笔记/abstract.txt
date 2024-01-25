@@ -1,0 +1,7 @@
+abstract用来修饰类，则这个类不能被new
+
+abstract用来修饰方法则这个类必须为abstract
+
+且这个类的子类必须有这个abstract方法的重写，可用于保证每一个子类都有重写
+
+抽象方法不能用static，final，private修饰
